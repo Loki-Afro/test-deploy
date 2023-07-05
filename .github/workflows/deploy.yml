@@ -14,7 +14,7 @@ jobs:
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
+          token: ${{ secrets.BINGO_TOKEN }}
           repository: Loki-Afro/test-bingo
           event-type: my-event
           client-payload: '{"branch" : "hugo-ist-gerne-kacke"}'
