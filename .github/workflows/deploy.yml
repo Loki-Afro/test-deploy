@@ -16,5 +16,5 @@ jobs:
         with:
           token: ${{ secrets.BINGO_TOKEN }}
           repository: Loki-Afro/test-bingo
-          event-type: my-event
+          event-type: add-branch
           client-payload: '{"branch" : "hugo-ist-gerne-kacke"}'
